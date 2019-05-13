@@ -9,11 +9,11 @@
 1. Download *MATor2-new.zip* (located in `code` directory)
 2. Follow instructions of the INSTALL file and/or commands of "Ubuntu-Install.sh" for installation.
 
-The script *download-consensus.py* of the [preceding reproduction](https://github.com/CheckResearch/confccsBackesKMM14_Experiment_01) can be used to download Tor consensus data. Server descriptors are downloaded by the GO program which is also used to generate the SQL database.
+The script *download-consensus.py* of the [preceding reproduction](https://github.com/CheckResearch/confccsBackesKMM14_Experiment_01) can be used to download Tor consensus data. Server descriptors are downloaded by the GO program, which is also used to generate the SQL database.
 
 ### Experiment Content
 
-I reproduced and extended the long time analysis shown in Figure 12 of the original paper. It was planned to conduct analysis with data from 2012 until end of 2018 but due to the higher runtime only a part of this time span was analysed. A detailed description can be found in my bachelor thesis [Changes in Tor's anonymity over time](https://github.com/CheckResearch/journalspopetsBackesMS16_Experiment_01/blob/master/Changes%20in%20Tor's%20anonymity%20over%20time.pdf).
+I reproduced and extended the long time analysis shown in Figure 12 of the original paper. It was planned to conduct analysis with data from 2012 until end of 2018. Due to the higher runtime only a part of this time span was analysed. A detailed description can be found in my bachelor thesis [Changes in Tor's anonymity over time](https://github.com/CheckResearch/journalspopetsBackesMS16_Experiment_01/blob/master/Changes%20in%20Tor's%20anonymity%20over%20time.pdf).
 
 ### Hardware/Software
 
@@ -49,4 +49,4 @@ A short overview on the steps I took to reproduce the experiment. For a detailed
 6. Comparison of results
 ## Results
 
-Reproduced and original values are similar, due to longer runtime of MATor2 only a part of the complete time span could be analysed. Again, for a detailed description of the results including graphs and a comparison with the original results, please have a look at Section 5.2 of my bachelor thesis.
+Reproduced and original values are similar, due to longer runtime of MATor2 only a part of the complete time span could be analysed. Again, for a detailed description of the results, including graphs and a comparison with the original results, please have a look at Section 5.2 of my bachelor thesis.
